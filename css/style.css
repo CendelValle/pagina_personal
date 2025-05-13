@@ -17,39 +17,39 @@ ul{
     flex-direction: row;
 }
 ul li{
-    padding: 40px;
+    padding: 60px;
     list-style: none;
 }
 ul li a{  color: rgb(0, 0, 0);
     text-decoration: none;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 nav ul li:hover{background: #c9c9c9; }
-@media (max-width: 850px) {
+@media (max-width: 800px) {
 .barras{
     background-color: #ffffff;
     display: block;
-    width: 880px;
+    width: 90vh;
 }
 .desplegable{
-    background: none;
+    background:  #c9c9c9;
     transform: translate(-100%);
     transition: 0.5s;
     font-size: 1.5rem;
-    width: 50%;
+    width: 80%;
 }
 ul{
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    height: 130vh;
 }
 a{
     padding: 0;
 }
 a{
     font-size: 1.5rem;
-    padding: 20px 0px 20px 20px;
+    padding: 25px 0px 25px 25px;
     display: block;
     text-align: center;
 }
@@ -57,9 +57,9 @@ a{
     background-image: url(fondo/iconomenu.png);
     background-color: #ffffff;
     background-repeat: no-repeat;
-    height: 30px;
-    width: 30px;
-    background-size: 30px 30px;
+    height: 35px;
+    width: 35px;
+    background-size: 35px 35px;
     background-position: center;
 }
 button{
@@ -71,7 +71,7 @@ button{
     background: rgba(125, 124, 124, 0.6);
     backdrop-filter: blur(2px);
     transform: translate(0%);
-    width: 300px;
+    width: 800px;
     transition: 0.5s;
 }
 .colocar_x{
@@ -83,10 +83,10 @@ button{
     background-size: 30px 30px;
     background-position: center;
 }
-@media (max-width: 500px){
+@media (max-width: 100vh){
     .desplegable{
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         font-size: 1.6rem;
     }
 }
@@ -102,16 +102,16 @@ h1, h3{
     transition: transform 2s, filter 2s;
 }
 
-
-
-
-
-th {
-    padding: 50px;
+.img{
+       padding: 50px;
     text-align: center;
     vertical-align: top;
-
 }
+
+.peluches{
+    text-align: center;
+}
+
 
 
 h3{
@@ -139,5 +139,5 @@ h3{
     position: absolute;
     vertical-align: top;
     top: 0%;
-    left: 90%;
+    left: 85%;
   }    
